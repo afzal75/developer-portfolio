@@ -10,7 +10,7 @@ h1{
 .name{
     color: orange;
 }
-section{
+.flexibol-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -55,4 +55,34 @@ section{
     background-repeat: no-repeat;
     background-position: right;
     
+}
+.blog{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    box-shadow: gray 10px 10px 30px;
+    border-radius: 10px;
+
+}
+#web-dev1{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+#web-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+} 
+footer  p{
+    text-align: center;
+    color: #696997;
 }
